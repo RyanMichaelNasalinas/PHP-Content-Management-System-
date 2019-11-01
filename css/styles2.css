@@ -1,0 +1,79 @@
+/*Design pagination in root folder */
+
+.navbar-inverse .navbar-nav >.active > a{
+    font-weight: bold;
+    color: black;
+}
+
+/* Design the navigation bar */
+
+.navbar {
+      margin-bottom: 0;
+      background-color: #003366;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Arial, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #FFF8DC !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #003366 !important;
+      background-color: #FFF8DC !important;
+  }
+  .navbar-inverse .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  } 
+
+/* End here */
+
+
+.pager li a{
+    border: 0px;
+   border-radius: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 2px;
+    padding: 10px;
+    
+}
+
+.pager a:hover:not(.activelink){
+    background-color: lightgray;
+}
+
+.pager li a.activelink{
+    color: white;
+    font-family: verdana;
+    background-color: black;
+    
+}
+
+.btn-success     {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #003366;
+  color: #003366;
+}
+
+.success:hover {
+  background-color: #003366;
+  color: white;
+}
+/* End here */
+ 
